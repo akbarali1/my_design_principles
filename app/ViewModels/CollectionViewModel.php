@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ViewModels;
+namespace App\app\ViewModels;
 
 use App\Presenters\ApiResponse;
 use Illuminate\Contracts\Foundation\Application;
@@ -8,6 +8,8 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
+use function App\ViewModels\collect;
+use function App\ViewModels\view;
 
 /**
  * Created by PhpStorm.

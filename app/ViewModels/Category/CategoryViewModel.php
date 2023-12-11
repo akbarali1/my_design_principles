@@ -1,10 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace App\ViewModels\Category;
+namespace App\app\ViewModels\Category;
 
-use App\ViewModels\BaseViewModel;
+use App\app\ViewModels\BaseViewModel;
 use Carbon\Carbon;
+use function App\ViewModels\Category\asset;
 
 /**
  * Created by PhpStorm.

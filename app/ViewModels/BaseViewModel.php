@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ViewModels;
+namespace App\app\ViewModels;
 
-use App\DataObjects\DataObjectBase;
+use App\app\DataObjects\DataObjectBase;
 use App\Presenters\ApiResponse;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
@@ -11,6 +11,8 @@ use Symfony\Component\Serializer\Exception\ExceptionInterface;
 use Symfony\Component\Serializer\NameConverter\CamelCaseToSnakeCaseNameConverter;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
 use Symfony\Component\Serializer\Serializer;
+use function App\ViewModels\app;
+use function App\ViewModels\view;
 
 /**
  * Created by PhpStorm.

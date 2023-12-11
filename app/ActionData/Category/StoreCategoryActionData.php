@@ -1,8 +1,8 @@
 <?php
 
-namespace App\ActionData\Category;
+namespace App\app\ActionData\Category;
 
-use App\ActionData\ActionDataBase;
+use App\app\ActionData\ActionDataBase;
 use App\Models\StoreModel;
 use Illuminate\Validation\Rule;
 

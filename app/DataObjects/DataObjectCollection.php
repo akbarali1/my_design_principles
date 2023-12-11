@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DataObjects;
+namespace App\app\DataObjects;
 
 use Illuminate\Support\Collection;
 

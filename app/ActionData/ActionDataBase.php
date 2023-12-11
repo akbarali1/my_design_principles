@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ActionData;
+namespace App\app\ActionData;
 
 use App\Exceptions\OperationException;
 use App\Models\UserModel;
@@ -11,6 +11,13 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
+use function App\ActionData\app;
+use function App\ActionData\auth;
+use function App\ActionData\collect;
+use function App\ActionData\data_forget;
+use function App\ActionData\data_get;
+use function App\ActionData\data_set;
+use function App\ActionData\trans;
 
 /**
  * Created by PhpStorm.

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ViewModels;
+namespace App\app\ViewModels;
 
 use App\Presenters\ApiResponse;
 use Illuminate\Contracts\Foundation\Application;

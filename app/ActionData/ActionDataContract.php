@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ActionData;
+namespace App\app\ActionData;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;

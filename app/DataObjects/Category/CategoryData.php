@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace App\DataObjects\Category;
+namespace App\app\DataObjects\Category;
 
-use App\DataObjects\DataObjectBase;
+use App\app\DataObjects\DataObjectBase;
 
 /**
  * Created by PhpStorm.

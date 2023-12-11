@@ -1,14 +1,17 @@
 <?php
 
-namespace App\ViewModels;
+namespace App\app\ViewModels;
 
-use App\DataObjects\DataObjectCollection;
+use App\app\DataObjects\DataObjectCollection;
 use App\Presenters\ApiResponse;
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Str;
+use function App\ViewModels\request;
+use function App\ViewModels\url;
+use function App\ViewModels\view;
 
 /**
  * Created by PhpStorm.

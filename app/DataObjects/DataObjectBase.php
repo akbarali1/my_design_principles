@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DataObjects;
+namespace App\app\DataObjects;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
